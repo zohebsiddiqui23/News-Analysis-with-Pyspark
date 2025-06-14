@@ -1,0 +1,25 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Output
+output/charts/*
+output/reports/*
+!output/charts/.gitkeep
+!output/reports/.gitkeep
+
+# Spark
+spark-warehouse/
+derby.log
+metastore_db/
